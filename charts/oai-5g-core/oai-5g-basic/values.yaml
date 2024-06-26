@@ -24,7 +24,7 @@ oai-nrf:
   imagePullSecrets:
     - name: "regcred"
   config:
-    logLevel: "debug"   #allowed info/error/debug
+    logLevel: "info"   #allowed info/error/debug
   nodeSelector: {}
 oai-udr:
   enabled: true
